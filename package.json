@@ -1,0 +1,27 @@
+{
+  "name": "pay-alipay",
+  "version": "0.1.1",
+  "description": "Alipay face-to-face payment sdk for Node.js",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "ava ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forl/pay-alipay.git"
+  },
+  "author": "Forl Yang <forl.yang@gmail.com> (iforl.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.7.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "debug": "^3.0.1",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  }
+}
